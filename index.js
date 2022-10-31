@@ -1,4 +1,2 @@
-var nome = document.querySelector("#exampleInputName");
+let userController = new UserController("form-user-create", "form-user-update", "table-users");
 
-nome.value = "Sergio Obalski Filho"
-nome.style.color = "#01012f"
